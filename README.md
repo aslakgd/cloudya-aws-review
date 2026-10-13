@@ -2,7 +2,7 @@
 
 Delbar prototype av en landingsside for AWS Economics Review. Siden følger Cloudyas designspråk og viser formatet på en side beslutningsstøtte.
 
-Flyt: månedlig AWS-forbruk, Savings Plans, jobb-e-post og selskap. Kontaktinfo sendes ikke til Cloudya eller andre tjenester. Skjemaet og neste skjerm er tydelig merket som forhåndsvisning.
+Flyt: månedlig AWS-forbruk, Savings Plans, jobb-e-post og selskap. Kontaktinfo sendes ikke til Cloudya eller andre tjenester. Siden er merket som prototype. Bekreftelsen etter innsending viser hvordan en mottatt forespørsel vil se ut når HubSpot er koblet til. Det er en demonstrasjon, og ingen forespørsel er sendt.
 
 ## Lokal visning
 

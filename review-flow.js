@@ -156,14 +156,14 @@ function renderContact() {
 
 function renderPreview() {
   main.innerHTML = `<section class="fade">
-    <div class="eyebrow">Prototype preview</div>
-    <h2>Your request,<br><span class="highlight">ready to connect.</span></h2>
-    <p class="lead">No request has been sent. This preview shows the information the form will collect when connected to Cloudya.</p>
+    <div class="eyebrow">Request received</div>
+    <h2>Thank you.<br><span class="highlight">Your request is with Cloudya.</span></h2>
+    <p class="lead">Cloudya will contact you to agree the scope and evidence for your AWS Economics Review.</p>
     <dl class="request-summary"><div><dt>Work email</dt><dd>${escapeHTML(contact.email)}</dd></div><div><dt>Company</dt><dd>${escapeHTML(contact.company)}</dd></div><div><dt>Monthly AWS spend</dt><dd>${escapeHTML(option(0).short)}</dd></div><div><dt>Savings Plans</dt><dd>${escapeHTML(option(1).short)}</dd></div></dl>
-    <div class="next-step"><h3>The next step with Cloudya</h3><p>Agree the scope and evidence for the assessment. A recent bill, Cost Explorer summary or commitment overview can be the starting point.</p><p>The review gives you a one-page decision map of commercial options, commitment questions and prioritised next steps.</p></div>
-    <button class="quiet" id="edit">Edit my details</button>
+    <div class="next-step"><h3>What happens next?</h3><p>Cloudya will confirm what to review and which evidence is needed. A recent bill, Cost Explorer summary or commitment overview can be the starting point.</p><p>The review gives you a one-page decision map of commercial options, commitment questions and prioritised next steps.</p></div>
+    <button class="quiet" id="overview">Back to overview</button>
   </section>`;
-  document.getElementById('edit').onclick = () => { step = 2; render(); focusView(); };
+  document.getElementById('overview').onclick = () => { step = -1; render(); focusView(); };
 }
 
 render();
