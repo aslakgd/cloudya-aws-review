@@ -138,7 +138,6 @@ function renderContact() {
       <div class="field"><label for="work-email">Work email <span>Required</span></label><input id="work-email" name="email" type="email" inputmode="email" autocomplete="email" maxlength="254" placeholder="you@company.com" value="${escapeHTML(contact.email)}" required></div>
       <div class="field"><label for="company">Company <span>Required</span></label><input id="company" name="company" autocomplete="organization" maxlength="200" placeholder="Company name" value="${escapeHTML(contact.company)}" required></div>
       <p class="privacy-note">Cloudya will use these details to contact you about your AWS Economics Review. <a href="https://www.cloudya.no/privacy" target="_blank" rel="noopener">Privacy policy</a></p>
-      <div class="preview-notice"><span>Prototype preview</span><p>This prototype is not connected to Cloudya. Your details will not be sent.</p></div>
       <div class="actions"><button type="button" class="quiet" id="back">Previous question</button><button class="primary" type="submit">Request my AWS review <span class="arrow" aria-hidden="true">→</span></button></div>
       <p class="hint">No phone number, meeting booking or document upload required here.</p>
     </form>
